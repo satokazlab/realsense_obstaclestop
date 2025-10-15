@@ -1,0 +1,50 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        # 1. PointCloud2 -> LaserScan
+        Node(
+            package='pointcloud_to_laserscan',
+            executable='pointcloud_to_laserscan_node',
+            name='pointcloud_to_laserscan',
+            remappings=[
+                ('cloud_in', '/camera/camera/depth/color/points'),
+                ('scan', '/scan')
+            ],
+            parameters=[{
+                'target_frame': 'camera_link',
+                'transform_tolerance': 0.05,
+                'min_height': -0.05,
+                'max_height': 0.05,
+                'angle_min': -1.5708,
+                'angle_max': 1.5708,
+                'angle_increment': 0.01745,
+                'scan_time': 0.1,
+                'range_min': 0.05,
+                'range_max': 5.0,
+                'use_inf': True,
+                'inf_epsilon': 1.0
+            }]
+        ),
+
+        # 2. LaserScan -> cmd_vel (0.3m以下でSTOP)
+        Node(
+            package='obstacle_stop',
+            executable='scan_stop_node',
+            name='scan_stop_node',
+            parameters=[{
+                'scan_topic': '/scan',
+                'cmd_vel_topic': '/cmd_vel',
+                'stop_distance': 0.3,
+                'forward_speed': 0.2
+            }]
+        ),
+
+        # 3. デバッグ用 /cmd_vel Subscriber
+        Node(
+            package='obstacle_stop',  # cmd_vel_subscriber.py を置いたパッケージ名
+            executable='cmd_vel_subscriber',
+            name='cmd_vel_subscriber'
+        )
+    ])
