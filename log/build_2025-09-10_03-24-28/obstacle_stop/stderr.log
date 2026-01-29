@@ -1,5 +1,0 @@
-  File "/home/kadowaki/realsense_ws/install/obstacle_stop/lib/python3.10/site-packages/obstacle_stop/obstacle_stop_node.py", line 17
-    main()ro
-          ^^
-SyntaxError: invalid syntax
-

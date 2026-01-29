@@ -1,1 +1,0 @@
-/home/kadowaki/realsense_ws/src/realsense-ros/realsense2_camera/include/named_filter.h

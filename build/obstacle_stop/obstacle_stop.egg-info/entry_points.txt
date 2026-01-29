@@ -1,6 +1,0 @@
-[console_scripts]
-cmd_vel_subscriber = obstacle_stop.cmd_vel_subscriber:main
-obstacle_stop_node = obstacle_stop.obstacle_stop_node:main
-pointcloud2_depth = obstacle_stop.pointcloud2_depth:main
-scan_stop_node = obstacle_stop.scan_stop_node:main
-
