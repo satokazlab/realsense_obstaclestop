@@ -1,0 +1,51 @@
+[0.438s] Invoking command in '/home/kadowaki/realsense_ws/build/pointcloud_tools': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kadowaki/realsense_ws/build/pointcloud_tools/build
+[0.559s] running develop
+[0.629s] Removing /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud-tools.egg-link (link to .)
+[0.642s] Invoked command in '/home/kadowaki/realsense_ws/build/pointcloud_tools' returned '0': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kadowaki/realsense_ws/build/pointcloud_tools/build
+[0.643s] Invoking command in '/home/kadowaki/realsense_ws/src/pointcloud_tools': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_tools build --build-base /home/kadowaki/realsense_ws/build/pointcloud_tools/build install --record /home/kadowaki/realsense_ws/build/pointcloud_tools/install.log --single-version-externally-managed install_data --force
+[0.751s] running egg_info
+[0.751s] writing ../../build/pointcloud_tools/pointcloud_tools.egg-info/PKG-INFO
+[0.751s] writing dependency_links to ../../build/pointcloud_tools/pointcloud_tools.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../build/pointcloud_tools/pointcloud_tools.egg-info/entry_points.txt
+[0.752s] writing requirements to ../../build/pointcloud_tools/pointcloud_tools.egg-info/requires.txt
+[0.752s] writing top-level names to ../../build/pointcloud_tools/pointcloud_tools.egg-info/top_level.txt
+[0.752s] reading manifest file '../../build/pointcloud_tools/pointcloud_tools.egg-info/SOURCES.txt'
+[0.753s] writing manifest file '../../build/pointcloud_tools/pointcloud_tools.egg-info/SOURCES.txt'
+[0.753s] running build
+[0.753s] running build_py
+[0.753s] running install
+[0.753s] running install_lib
+[0.754s] creating /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/ego_compensator.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/dynamic_cluster_marker.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/dynamic_cluster_node.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/__init__.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/safety_interface.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/intent_estimator.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/tracker.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.754s] creating /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/pointcloud_tools/__init__.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools
+[0.754s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/pointcloud_tools/pointcloud_diff.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools
+[0.754s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/ego_compensator.py to ego_compensator.cpython-310.pyc
+[0.755s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/dynamic_cluster_marker.py to dynamic_cluster_marker.cpython-310.pyc
+[0.756s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/dynamic_cluster_node.py to dynamic_cluster_node.cpython-310.pyc
+[0.757s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/__init__.py to __init__.cpython-310.pyc
+[0.757s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/safety_interface.py to safety_interface.cpython-310.pyc
+[0.757s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/intent_estimator.py to intent_estimator.cpython-310.pyc
+[0.758s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/tracker.py to tracker.cpython-310.pyc
+[0.759s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools/__init__.py to __init__.cpython-310.pyc
+[0.759s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools/pointcloud_diff.py to pointcloud_diff.cpython-310.pyc
+[0.760s] running install_data
+[0.760s] copying resource/pointcloud_tools -> /home/kadowaki/realsense_ws/install/pointcloud_tools/share/ament_index/resource_index/packages
+[0.760s] copying package.xml -> /home/kadowaki/realsense_ws/install/pointcloud_tools/share/pointcloud_tools
+[0.760s] running install_egg_info
+[0.761s] Copying ../../build/pointcloud_tools/pointcloud_tools.egg-info to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools-0.0.0-py3.10.egg-info
+[0.761s] running install_scripts
+[0.771s] Installing dynamic_cluster_node script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.771s] Installing ego_compensator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.771s] Installing intent_estimator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.771s] Installing pointcloud_diff script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.771s] Installing safety_interface script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.772s] Installing tracker script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.772s] writing list of installed files to '/home/kadowaki/realsense_ws/build/pointcloud_tools/install.log'
+[0.783s] Invoked command in '/home/kadowaki/realsense_ws/src/pointcloud_tools' returned '0': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_tools build --build-base /home/kadowaki/realsense_ws/build/pointcloud_tools/build install --record /home/kadowaki/realsense_ws/build/pointcloud_tools/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,31 @@
+[0.423s] Invoking command in '/home/kadowaki/realsense_ws/src/pointcloud_tools': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_tools build --build-base /home/kadowaki/realsense_ws/build/pointcloud_tools/build install --record /home/kadowaki/realsense_ws/build/pointcloud_tools/install.log --single-version-externally-managed install_data
+[0.534s] running egg_info
+[0.534s] writing ../../build/pointcloud_tools/pointcloud_tools.egg-info/PKG-INFO
+[0.534s] writing dependency_links to ../../build/pointcloud_tools/pointcloud_tools.egg-info/dependency_links.txt
+[0.534s] writing entry points to ../../build/pointcloud_tools/pointcloud_tools.egg-info/entry_points.txt
+[0.534s] writing requirements to ../../build/pointcloud_tools/pointcloud_tools.egg-info/requires.txt
+[0.534s] writing top-level names to ../../build/pointcloud_tools/pointcloud_tools.egg-info/top_level.txt
+[0.535s] reading manifest file '../../build/pointcloud_tools/pointcloud_tools.egg-info/SOURCES.txt'
+[0.535s] writing manifest file '../../build/pointcloud_tools/pointcloud_tools.egg-info/SOURCES.txt'
+[0.535s] running build
+[0.535s] running build_py
+[0.536s] copying scripts/rgb_motion_gate_filter.py -> /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts
+[0.536s] running install
+[0.536s] running install_lib
+[0.536s] copying /home/kadowaki/realsense_ws/build/pointcloud_tools/build/lib/scripts/rgb_motion_gate_filter.py -> /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts
+[0.537s] byte-compiling /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/scripts/rgb_motion_gate_filter.py to rgb_motion_gate_filter.cpython-310.pyc
+[0.538s] running install_data
+[0.538s] running install_egg_info
+[0.539s] removing '/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[0.539s] Copying ../../build/pointcloud_tools/pointcloud_tools.egg-info to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud_tools-0.0.0-py3.10.egg-info
+[0.539s] running install_scripts
+[0.550s] Installing dynamic_cluster_node script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] Installing ego_compensator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] Installing intent_estimator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] Installing pointcloud_diff script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] Installing rgb_motion_gate_filter script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] Installing safety_interface script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] Installing static_obstacle_detector script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] Installing tracker script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.550s] writing list of installed files to '/home/kadowaki/realsense_ws/build/pointcloud_tools/install.log'
+[0.563s] Invoked command in '/home/kadowaki/realsense_ws/src/pointcloud_tools' returned '0': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pointcloud_tools build --build-base /home/kadowaki/realsense_ws/build/pointcloud_tools/build install --record /home/kadowaki/realsense_ws/build/pointcloud_tools/install.log --single-version-externally-managed install_data

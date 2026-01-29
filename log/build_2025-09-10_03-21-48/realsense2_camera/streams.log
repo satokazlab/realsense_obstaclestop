@@ -1,0 +1,154 @@
+[0.006s] Invoking command in '/home/kadowaki/realsense_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs:/home/kadowaki/realsense_ws/install/realsense2_description:/home/kadowaki/realsense_ws/install/realsense2_camera:/home/kadowaki/realsense_ws/install/obstacle_stop:/home/kadowaki/realsense_ws/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs/lib:/home/kadowaki/realsense_ws/install/realsense2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kadowaki/realsense_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kadowaki/realsense_ws/install/realsense2_camera
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.238s] -- Detecting CXX compile features - done
+[0.239s] -- Create Release Build.
+[0.239s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.338s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.385s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.406s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.410s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.459s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[0.479s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.480s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.532s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.571s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.599s] -- Looking for pthread.h
+[0.644s] -- Looking for pthread.h - found
+[0.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.697s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.698s] -- Found Threads: TRUE  
+[0.730s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.747s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.755s] -- Found realsense2_camera_msgs: 4.56.4 (/home/kadowaki/realsense_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[0.766s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.771s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.779s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.794s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.804s] -- Found OpenCV: /usr (found version "4.5.4") found components: core 
+[0.805s] -- Build for ROS2 Humble
+[0.807s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.808s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.810s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.481s] -- rs_device_info:
+[2.481s] -- Device Name                   Serial Number       Firmware Version
+[2.481s] Intel RealSense D435I         908212071328        5.16.0.1
+[2.481s] 
+[2.481s] -- D455 device found
+[4.006s] -- Configuring done
+[4.020s] -- Generating done
+[4.024s] -- Build files have been written to: /home/kadowaki/realsense_ws/build/realsense2_camera
+[4.032s] Invoked command in '/home/kadowaki/realsense_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs:/home/kadowaki/realsense_ws/install/realsense2_description:/home/kadowaki/realsense_ws/install/realsense2_camera:/home/kadowaki/realsense_ws/install/obstacle_stop:/home/kadowaki/realsense_ws/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs/lib:/home/kadowaki/realsense_ws/install/realsense2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kadowaki/realsense_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kadowaki/realsense_ws/install/realsense2_camera
+[4.032s] Invoking command in '/home/kadowaki/realsense_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs:/home/kadowaki/realsense_ws/install/realsense2_description:/home/kadowaki/realsense_ws/install/realsense2_camera:/home/kadowaki/realsense_ws/install/obstacle_stop:/home/kadowaki/realsense_ws/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs/lib:/home/kadowaki/realsense_ws/install/realsense2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kadowaki/realsense_ws/build/realsense2_camera -- -j24 -l24
+[4.076s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[4.077s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[4.077s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[4.077s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[4.077s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.077s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[4.077s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[4.077s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.077s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[4.077s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/align_depth_filter.cpp.o[0m
+[4.077s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[4.078s] [ 48%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/pointcloud_filter.cpp.o[0m
+[4.078s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[4.078s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[4.078s] [ 60%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[4.078s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/actions.cpp.o[0m
+[4.078s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[4.078s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[4.079s] [ 76%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o[0m
+[4.460s] [ 80%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.488s] [ 80%] Built target gtest_main
+[7.848s] [ 84%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[7.936s] [ 84%] Built target realsense2_camera_node
+[10.909s] [ 88%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.936s] [ 88%] Built target gtest
+[10.950s] [ 92%] [32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o[0m
+[11.345s] [ 96%] [32m[1mLinking CXX executable gtest_template[0m
+[11.399s] [ 96%] Built target gtest_template
+[14.932s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[15.202s] [100%] Built target realsense2_camera
+[15.211s] Invoked command in '/home/kadowaki/realsense_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs:/home/kadowaki/realsense_ws/install/realsense2_description:/home/kadowaki/realsense_ws/install/realsense2_camera:/home/kadowaki/realsense_ws/install/obstacle_stop:/home/kadowaki/realsense_ws/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs/lib:/home/kadowaki/realsense_ws/install/realsense2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kadowaki/realsense_ws/build/realsense2_camera -- -j24 -l24
+[15.213s] Invoking command in '/home/kadowaki/realsense_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs:/home/kadowaki/realsense_ws/install/realsense2_description:/home/kadowaki/realsense_ws/install/realsense2_camera:/home/kadowaki/realsense_ws/install/obstacle_stop:/home/kadowaki/realsense_ws/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs/lib:/home/kadowaki/realsense_ws/install/realsense2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kadowaki/realsense_ws/build/realsense2_camera
+[15.218s] -- Install configuration: "Release"
+[15.219s] -- Execute custom install script
+[15.219s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/config/global_settings.yaml
+[15.228s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[15.238s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[15.243s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/align_depth_filter.h
+[15.248s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/base_realsense_node.h
+[15.254s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/constants.h
+[15.260s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/dynamic_params.h
+[15.268s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/gl_window.h
+[15.274s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/image_publisher.h
+[15.278s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/named_filter.h
+[15.282s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/pointcloud_filter.h
+[15.288s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/profile_manager.h
+[15.293s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/realsense_node_factory.h
+[15.299s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/ros_node_base.h
+[15.303s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/ros_param_backend.h
+[15.308s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/ros_sensor.h
+[15.313s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/ros_utils.h
+[15.317s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/include/sensor_params.h
+[15.321s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[15.325s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[15.331s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[15.336s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[15.341s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch_sync.py
+[15.345s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md
+[15.349s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py
+[15.355s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/calib_config_example.json
+[15.360s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md
+[15.365s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py
+[15.369s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz
+[15.373s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md
+[15.378s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py
+[15.382s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md
+[15.387s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml
+[15.391s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py
+[15.396s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md
+[15.401s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py
+[15.405s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py
+[15.410s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_infra_launch.py
+[15.414s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py
+[15.419s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz
+[15.423s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz
+[15.428s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[15.434s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[15.439s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[15.443s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[15.449s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[15.459s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[15.469s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[15.482s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[15.497s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[15.506s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[15.521s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[15.544s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[15.553s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[15.571s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[15.585s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[15.594s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.606s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[15.619s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.640s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[15.658s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[15.673s] -- Symlinking: /home/kadowaki/realsense_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[15.686s] Invoked command in '/home/kadowaki/realsense_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs:/home/kadowaki/realsense_ws/install/realsense2_description:/home/kadowaki/realsense_ws/install/realsense2_camera:/home/kadowaki/realsense_ws/install/obstacle_stop:/home/kadowaki/realsense_ws/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/kadowaki/realsense_ws/install/realsense2_camera_msgs/lib:/home/kadowaki/realsense_ws/install/realsense2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kadowaki/realsense_ws/build/realsense2_camera

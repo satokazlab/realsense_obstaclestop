@@ -1,0 +1,1 @@
+/home/kadowaki/realsense_ws/src/realsense-ros/realsense2_camera_msgs/msg/Metadata.msg

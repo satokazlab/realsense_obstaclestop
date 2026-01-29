@@ -1,0 +1,17 @@
+[0.423s] Invoking command in '/home/kadowaki/realsense_ws/build/pointcloud_tools': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kadowaki/realsense_ws/build/pointcloud_tools/build --no-deps symlink_data
+[0.547s] running develop
+[0.615s] running egg_info
+[0.615s] writing pointcloud_tools.egg-info/PKG-INFO
+[0.616s] writing dependency_links to pointcloud_tools.egg-info/dependency_links.txt
+[0.616s] writing entry points to pointcloud_tools.egg-info/entry_points.txt
+[0.616s] writing requirements to pointcloud_tools.egg-info/requires.txt
+[0.616s] writing top-level names to pointcloud_tools.egg-info/top_level.txt
+[0.617s] reading manifest file 'pointcloud_tools.egg-info/SOURCES.txt'
+[0.617s] writing manifest file 'pointcloud_tools.egg-info/SOURCES.txt'
+[0.618s] running build_ext
+[0.618s] Creating /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud-tools.egg-link (link to .)
+[0.618s] Installing pointcloud_diff script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.618s] 
+[0.618s] Installed /home/kadowaki/realsense_ws/build/pointcloud_tools
+[0.618s] running symlink_data
+[0.632s] Invoked command in '/home/kadowaki/realsense_ws/build/pointcloud_tools' returned '0': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kadowaki/realsense_ws/build/pointcloud_tools/build --no-deps symlink_data

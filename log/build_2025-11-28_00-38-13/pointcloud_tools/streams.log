@@ -1,0 +1,26 @@
+[0.269s] Invoking command in '/home/kadowaki/realsense_ws/build/pointcloud_tools': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kadowaki/realsense_ws/build/pointcloud_tools/build --no-deps symlink_data --force
+[0.385s] running develop
+[0.449s] running egg_info
+[0.449s] writing pointcloud_tools.egg-info/PKG-INFO
+[0.450s] writing dependency_links to pointcloud_tools.egg-info/dependency_links.txt
+[0.450s] writing entry points to pointcloud_tools.egg-info/entry_points.txt
+[0.450s] writing requirements to pointcloud_tools.egg-info/requires.txt
+[0.450s] writing top-level names to pointcloud_tools.egg-info/top_level.txt
+[0.450s] reading manifest file 'pointcloud_tools.egg-info/SOURCES.txt'
+[0.451s] writing manifest file 'pointcloud_tools.egg-info/SOURCES.txt'
+[0.452s] running build_ext
+[0.452s] Creating /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud-tools.egg-link (link to .)
+[0.452s] Installing dynamic_cluster_node script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.452s] Installing ego_compensator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.452s] Installing intent_estimator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.452s] Installing pointcloud_diff script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.452s] Installing safety_interface script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.452s] Installing tracker script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+[0.452s] 
+[0.452s] Installed /home/kadowaki/realsense_ws/build/pointcloud_tools
+[0.452s] running symlink_data
+[0.452s] symbolically linking /home/kadowaki/realsense_ws/build/pointcloud_tools/resource/pointcloud_tools -> /home/kadowaki/realsense_ws/install/pointcloud_tools/share/ament_index/resource_index/packages
+[0.452s] symbolically linking /home/kadowaki/realsense_ws/build/pointcloud_tools/package.xml -> /home/kadowaki/realsense_ws/install/pointcloud_tools/share/pointcloud_tools
+[0.452s] creating /home/kadowaki/realsense_ws/install/pointcloud_tools/share/pointcloud_tools/launch
+[0.452s] error: [Errno 2] No such file or directory: '/home/kadowaki/realsense_ws/install/pointcloud_tools/share/pointcloud_tools/launch/intent_tracking.launch.py'
+[0.465s] Invoked command in '/home/kadowaki/realsense_ws/build/pointcloud_tools' returned '1': PYTHONPATH=/home/kadowaki/realsense_ws/build/pointcloud_tools/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kadowaki/realsense_ws/build/pointcloud_tools/build --no-deps symlink_data --force

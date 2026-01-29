@@ -1,0 +1,24 @@
+[0.598s] Invoking command in '/home/kadowaki/realsense_ws/src/obstacle_stop': PYTHONPATH=/home/kadowaki/realsense_ws/build/obstacle_stop/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/obstacle_stop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_stop build --build-base /home/kadowaki/realsense_ws/build/obstacle_stop/build install --record /home/kadowaki/realsense_ws/build/obstacle_stop/install.log --single-version-externally-managed install_data
+[0.747s] running egg_info
+[0.749s] writing ../../build/obstacle_stop/obstacle_stop.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/obstacle_stop/obstacle_stop.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/obstacle_stop/obstacle_stop.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/obstacle_stop/obstacle_stop.egg-info/requires.txt
+[0.749s] writing top-level names to ../../build/obstacle_stop/obstacle_stop.egg-info/top_level.txt
+[0.750s] reading manifest file '../../build/obstacle_stop/obstacle_stop.egg-info/SOURCES.txt'
+[0.750s] writing manifest file '../../build/obstacle_stop/obstacle_stop.egg-info/SOURCES.txt'
+[0.751s] running build
+[0.751s] running build_py
+[0.751s] running install
+[0.751s] running install_lib
+[0.752s] running install_data
+[0.752s] running install_egg_info
+[0.753s] removing '/home/kadowaki/realsense_ws/install/obstacle_stop/lib/python3.10/site-packages/obstacle_stop-0.0.0-py3.10.egg-info' (and everything under it)
+[0.753s] Copying ../../build/obstacle_stop/obstacle_stop.egg-info to /home/kadowaki/realsense_ws/install/obstacle_stop/lib/python3.10/site-packages/obstacle_stop-0.0.0-py3.10.egg-info
+[0.754s] running install_scripts
+[0.772s] Installing cmd_vel_subscriber script to /home/kadowaki/realsense_ws/install/obstacle_stop/lib/obstacle_stop
+[0.772s] Installing obstacle_stop_node script to /home/kadowaki/realsense_ws/install/obstacle_stop/lib/obstacle_stop
+[0.772s] Installing pointcloud2_depth script to /home/kadowaki/realsense_ws/install/obstacle_stop/lib/obstacle_stop
+[0.772s] Installing scan_stop_node script to /home/kadowaki/realsense_ws/install/obstacle_stop/lib/obstacle_stop
+[0.772s] writing list of installed files to '/home/kadowaki/realsense_ws/build/obstacle_stop/install.log'
+[0.794s] Invoked command in '/home/kadowaki/realsense_ws/src/obstacle_stop' returned '0': PYTHONPATH=/home/kadowaki/realsense_ws/build/obstacle_stop/prefix_override:/home/kadowaki/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadowaki/realsense_ws/install/obstacle_stop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_stop build --build-base /home/kadowaki/realsense_ws/build/obstacle_stop/build install --record /home/kadowaki/realsense_ws/build/obstacle_stop/install.log --single-version-externally-managed install_data

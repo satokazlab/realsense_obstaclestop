@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing pointcloud_tools.egg-info/PKG-INFO
+writing dependency_links to pointcloud_tools.egg-info/dependency_links.txt
+writing entry points to pointcloud_tools.egg-info/entry_points.txt
+writing requirements to pointcloud_tools.egg-info/requires.txt
+writing top-level names to pointcloud_tools.egg-info/top_level.txt
+reading manifest file 'pointcloud_tools.egg-info/SOURCES.txt'
+writing manifest file 'pointcloud_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/python3.10/site-packages/pointcloud-tools.egg-link (link to .)
+Installing dynamic_cluster_node script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+Installing ego_compensator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+Installing intent_estimator script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+Installing pointcloud_diff script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+Installing safety_interface script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+Installing tracker script to /home/kadowaki/realsense_ws/install/pointcloud_tools/lib/pointcloud_tools
+
+Installed /home/kadowaki/realsense_ws/build/pointcloud_tools
+running symlink_data
+symbolically linking /home/kadowaki/realsense_ws/build/pointcloud_tools/resource/pointcloud_tools -> /home/kadowaki/realsense_ws/install/pointcloud_tools/share/ament_index/resource_index/packages
+symbolically linking /home/kadowaki/realsense_ws/build/pointcloud_tools/package.xml -> /home/kadowaki/realsense_ws/install/pointcloud_tools/share/pointcloud_tools
+creating /home/kadowaki/realsense_ws/install/pointcloud_tools/share/pointcloud_tools/launch
+error: [Errno 2] No such file or directory: '/home/kadowaki/realsense_ws/install/pointcloud_tools/share/pointcloud_tools/launch/intent_tracking.launch.py'
